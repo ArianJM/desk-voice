@@ -1,0 +1,18 @@
+#JSGF V1.0;
+/**
+ * Automatically created by DeskVoice,
+ * any change here might be undone
+ * next time you open DeskVoice.
+ */
+
+grammar gram;
+
+public <quit> = ( Quit | Exit | Stop recording | Quit desk voice );
+public <CommandRule> = <Command>;
+public <ActionRule> = [please] <Action>;
+public <ProgramRule> = [open | start] <Program>;
+public <ShortcutRule> = <Shortcut>;
+<Command> = (Search the web | Chrome | bad);
+<Action> = (Mute | Volume up | Volume down | Play | Pause | Next | Previous | Stop | Back | Forward | Refresh | Search);
+<Program> = (File browser | Web browser | Text editor | Eclipse);
+<Shortcut> = (Switch Window | number lock | close window | Select all | Task Manager | Copy | Paste | Left | Complex | Right | Up | Down | Enter | Close | Maximize | verge | iron);
