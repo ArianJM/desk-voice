@@ -1,4 +1,4 @@
 desk-voice
 ==========
 
-Voice recognition program to interact with the computer. Uses CMU Sphin4.
+Voice recognition program to interact with the computer. Uses CMU Sphinx4.
